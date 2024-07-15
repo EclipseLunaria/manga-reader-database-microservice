@@ -7,7 +7,7 @@ export class ChapterInfo{
   id!: string;
 
   @PrimaryColumn()
-  seriesId!: string;
+  mangaId!: string;
 
   @Column()
   chapterName!: string;
@@ -53,5 +53,5 @@ export class HasChapter{
     chapterId!: string;
 
     @PrimaryColumn()
-    seriesId!: string;
+    mangaId!: string;
 }

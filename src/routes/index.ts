@@ -1,10 +1,10 @@
 import { Router } from "express";
-import seriesMetaRouter from "./seriesMetaRoute";
+import mangaMetaRouter from "./mangaMetaRoute";
 
 const routes = Router();
 
 // attach route definitions
-routes.use("/meta", seriesMetaRouter);
+routes.use("/meta", mangaMetaRouter);
 
 
 export default routes;

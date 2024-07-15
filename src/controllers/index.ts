@@ -1,4 +1,4 @@
-import { seriesMetaController } from "./mangaInfoController";
+import { mangaMetaController } from "./mangaInfoController";
 
-export { seriesMetaController };
+export { mangaMetaController };
 

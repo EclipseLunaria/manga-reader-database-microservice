@@ -1,5 +1,5 @@
 import { DataSource } from "typeorm";
-import { ChapterInfo } from "./models/seriesInfoModel";
+import { ChapterInfo } from "./models/mangaInfoModel";
 export const ServiceDataSource = new DataSource({
 type: "sqlite",
 database: "meta.db",

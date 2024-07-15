@@ -1,12 +1,12 @@
 import { Request, Response } from "express";
 
-const seriesMetaController = (req:Request, res:Response) => {
+const mangaMetaController = (req:Request, res:Response) => {
     
-    res.send("Hello Template Controller!");
+    res.send("Hello mangaMeta Controller!");
 };
 
 export class ChapterController {
     
 }
 
-export {seriesMetaController}
+export {mangaMetaController};
