@@ -6,8 +6,9 @@ import { ChapterInfo } from './models/mangaInfoModel';
 
 createConnection().then(async connection => {
   const app = express();
-
-  app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+  const port = process.env.PORT || 6965;
+  
+  app.listen(port, () => {
+    console.log(`Database service is running on http://localhost:${port}`);
   });
 }).catch(error => console.log(error));
