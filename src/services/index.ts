@@ -1,3 +1,3 @@
-import { templateService } from "./mangaInfoService";
+import { mangaInfoService } from "./mangaInfoService";
 
-export {templateService};
+export {mangaInfoService};
